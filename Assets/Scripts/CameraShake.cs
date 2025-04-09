@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraShake : MonoBehaviour
 {
     public Vector3 defalutvelocity = Vector3.zero;
-    public bool m_shakeFg = false;
+    private bool m_shakeFg = false;
     bool m_nowShake = false;
     float m_time = 0;              //ŠÔ
     float m_changeTime = 0.02f;     //Ø‚è‘Ö‚¦ŠÔ
