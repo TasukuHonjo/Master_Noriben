@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  cursorObj: {fileID: 0}
+  cursorObj: {fileID: 125924463}
   onButtonTriggerEnter:
     m_PersistentCalls:
       m_Calls:
