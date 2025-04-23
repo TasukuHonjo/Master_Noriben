@@ -90,13 +90,11 @@ public class CustomCursor : MonoBehaviour
             if (Input.GetAxis("Mouse Y") > 0) { moveY = 0; }
             Debug.Log("チェック");
         }
-        Debug.Log(Screen.height * 0.5f);
 
         // 移動後のターゲット位置を計算
         Vector3 targetPosition = cursorPosition + new Vector3(moveX, moveY, 0);
 
         // 現在の位置からターゲット位置へ徐々に移動
-        //cursorPosition = Vector3.Lerp(cursorPosition, targetPosition, 0.1f);
         cursorPosition = targetPosition;// こっちのほうが綺麗に反映されてる気がする(触ってみた感覚)
 
         // 画面内にカーソルを制限
