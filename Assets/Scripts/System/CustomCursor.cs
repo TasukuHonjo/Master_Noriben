@@ -88,7 +88,6 @@ public class CustomCursor : MonoBehaviour
         if (cursorPosition.y >= top)
         {
             if (Input.GetAxis("Mouse Y") > 0) { moveY = 0; }
-            Debug.Log("チェック");
         }
 
         // 移動後のターゲット位置を計算
