@@ -74,4 +74,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Fonts
-/[As]ssets/[Ff]onts/
+/[As]ssets/[Ff]onts/*.asset
