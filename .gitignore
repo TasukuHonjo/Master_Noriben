@@ -75,3 +75,5 @@ crashlytics-build.properties
 
 # Fonts
 /[As]ssets/[Ff]onts/*.asset
+SDF.asset.mate
+SDF.asset
