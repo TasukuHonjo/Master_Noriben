@@ -884,7 +884,7 @@ MonoBehaviour:
   fragmentCountX: 10
   fragmentCountY: 5
   fragmentPrefab: {fileID: 2733270940308272092, guid: 96fcafaa8903b604a8af7bc329103738, type: 3}
-  nextSceneName: 
+  nextSceneName: TitleScene
   activeObj:
   - {fileID: 863582023}
   - {fileID: 1259958573}
