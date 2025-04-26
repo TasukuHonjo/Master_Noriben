@@ -42,7 +42,7 @@ public class GlassShatterTransition : MonoBehaviour
         capturedTexture = null;
 
         yield return new WaitForSeconds(2f);
-        Debug.Log("ƒV[ƒ“•Ï‚í‚é‚æ");
+        SceneManager.LoadScene(nextSceneName);
     }
 
     void CreateFragments()
