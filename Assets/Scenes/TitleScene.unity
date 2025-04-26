@@ -373,6 +373,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1477263157}
+        m_TargetAssemblyTypeName: TitleManager, Assembly-CSharp
+        m_MethodName: ChangeTimeAttackExplanation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonClick:
     m_PersistentCalls:
       m_Calls: []
@@ -382,6 +394,18 @@ MonoBehaviour:
       - m_Target: {fileID: 410179152}
         m_TargetAssemblyTypeName: OriginalButton, Assembly-CSharp
         m_MethodName: ThisSizeDef
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1477263157}
+        m_TargetAssemblyTypeName: TitleManager, Assembly-CSharp
+        m_MethodName: DefaultExplanation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -743,8 +767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explanationTMP: {fileID: 2076019029}
-  endlessExplanation: "\u30A8\u30F3\u30C9\u30EC\u30B9\\n\u9650\u754C\u307E\u3067\u6577\u304D\u8A70\u3081\u308B"
-  timeAttackExplanation: "\u30BF\u30A4\u30E0\u30A2\u30BF\u30C3\u30AF\\n75%\u307E\u3067\u306E\u30BF\u30A4\u30E0\u3092\u6E2C\u308B"
+  endlessExplanation: "[\u30A8\u30F3\u30C9\u30EC\u30B9]\\n\u9650\u754C\u307E\u3067\u6577\u304D\u8A70\u3081\u308B"
+  timeAttackExplanation: "[\u30BF\u30A4\u30E0\u30A2\u30BF\u30C3\u30AF]\\n75%\u307E\u3067\u306E\u30BF\u30A4\u30E0\u3092\u6E2C\u308B"
 --- !u!4 &1477263158
 Transform:
   m_ObjectHideFlags: 0
@@ -964,6 +988,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1477263157}
+        m_TargetAssemblyTypeName: TitleManager, Assembly-CSharp
+        m_MethodName: ChangeEndlessExplanation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonClick:
     m_PersistentCalls:
       m_Calls: []
@@ -973,6 +1009,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2056792685}
         m_TargetAssemblyTypeName: OriginalButton, Assembly-CSharp
         m_MethodName: ThisSizeDef
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1477263157}
+        m_TargetAssemblyTypeName: TitleManager, Assembly-CSharp
+        m_MethodName: DefaultExplanation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
